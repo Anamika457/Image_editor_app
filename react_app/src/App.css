@@ -1,0 +1,45 @@
+*::before, *::after {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0;
+  background-image: url("background.jpeg");
+  background-repeat: no-repeat; /* Fix the property name */
+  background-size: cover;
+}
+
+.sidebar {
+ 
+  
+  background-color:  hsl(167, 39%, 55%);
+  border-left: 2px solid hsl(270, 5%, 8%);
+  height: 40%;
+  width: 100%;
+  
+  
+}
+.sidebar-item {
+  
+  cursor: pointer;
+  background-color:  hsl(167, 39%, 55%);
+  
+  
+}
+.sidebar-item:hover, .sidebar-item:focus {
+ 
+  background-color: hsl(129, 39%, 74%);
+}
+
+
+.slider {
+ 
+  width: 100%;
+  cursor: pointer;
+}
+
+.image{
+  
+  height: 50vh;
+  width: 60vh;
+}
